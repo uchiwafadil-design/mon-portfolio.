@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fadil AZA | Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="logo">Fadil<span>.</span></div>
+        <nav>
+            <ul>
+                <li><a href="#presentation">Bio</a></li>
+                <li><a href="#portfolio">Projets</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <button id="theme-toggle" class="theme-btn"><i class="fas fa-moon"></i></button>
+    </header>
+
+    <main>
+        <section id="presentation" class="hero">
+            <div class="hero-content">
+                <span class="badge">Apprenti Développeur</span>
+                <h1>Je suis <span>Fawann AZA</span></h1>
+                <p>Passionné par le code et le design moderne. Je crée des solutions web sur mesure.</p>
+                <div class="hero-btns">
+                    <a href="#portfolio" class="btn-primary">Mes Projets</a>
+                    <a href="https://wa.me/2290191929373" target="_blank" class="btn-secondary">WhatsApp</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio">
+            <h2 class="section-title">Mes <span>Réalisations</span></h2>
+            <div class="grid-projets">
+                
+                <div class="card">
+                    <div class="card-image-container">
+                        <img src="projet1.jpg" alt="Projet" class="card-img">
+                        <div class="card-tags"><span>HTML</span><span>CSS</span></div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Interface Premium</h3>
+                        <p>Design épuré avec effets de transparence et animations fluides.</p>
+                        <a href="#" class="btn-link">Détails <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-image-container">
+                        <img src="image2.jpg" alt="Projet" class="card-img">
+                        <div class="card-tags"><span>JS</span><span>Design</span></div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Application Web</h3>
+                        <p>Une expérience utilisateur interactive et optimisée.</p>
+                        <a href="#" class="btn-link">Détails <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <h2 class="section-title">Me <span>Contacter</span></h2>
+            <div class="contact-container">
+                <form class="contact-form">
+                    <div class="input-group">
+                        <label>Nom Complet</label>
+                        <input type="text" placeholder="Fadil AZA" required>
+                    </div>
+                    <div class="input-group">
+                        <label>Email</label>
+                        <input type="email" placeholder="fadil@exemple.com" required>
+                    </div>
+                    <div class="input-group">
+                        <label>Message</label>
+                        <textarea rows="4" placeholder="Votre message..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary">Envoyer le message</button>
+                </form>
+                
+                <div class="contact-info">
+                    <h3>Retrouvez-moi</h3>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/fadil.aza.9889?igsh=NGN2c2JiaWs4eDFn" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/search/top?q=Fadil%20AZA" target="_blank"><i class="fab fa-facebook"></i></a>
+                        <a href="https://wa.me/2290191929373" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <button id="backToTop"><i class="fas fa-arrow-up"></i></button>
+
+    <script src="script.js"></script>
+</body>
+</html>
